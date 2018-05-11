@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="rlayout_left_margin">16dp</dimen>
+    <dimen name="rlayout_right_margin">16dp</dimen>
+    <dimen name="rlayout_top_margin">16dp</dimen>
+    <dimen name="rlayout_bottom_margin">16dp</dimen>
+</resources>

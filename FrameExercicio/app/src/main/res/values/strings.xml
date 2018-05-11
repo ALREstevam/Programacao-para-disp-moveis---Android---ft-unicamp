@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NavigationDrawerAula</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">BLANK FRAGMENT</string>
+    <string name="to">To:</string>
+    <string name="tomail_mail_com">tomail@mail.com</string>
+    <string name="messages">message</string>
+    <string name="send">send</string>
+</resources>

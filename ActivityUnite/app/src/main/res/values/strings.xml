@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityUnite</string>
+    <string name="click_me">Click me</string>
+    <string name="dica_user">Dica para o usuário</string>
+    <string name="checkbox1">Checkbox1</string>
+    <string name="checkbox2">Checkbox2</string>
+    <string name="radiobox1">RadioBox1</string>
+    <string name="radiobox2">RadioBox2</string>
+</resources>

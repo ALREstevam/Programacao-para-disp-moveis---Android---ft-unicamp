@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="checkbox1">cerveja:</string>
+    <string name="checkbox2">pizza:</string>
+    <string name="checkbox3">batata:</string>
+    <string name="checkbox4">queijo:</string>
+    <string name="checkbox5">bacon:</string>
+    <string name="checkbox6">chocolate:</string>
+    <string name="checkbox7">nuggets:</string>
+    <string name="checkbox8">maionese:</string>
+    <string name="checkbox9">mostarda:</string>
+    <string name="checkbox10">ketchup:</string>
+    <string name="botao">Confirmar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unicamp.ft.a166348.aplicacaoartista.AddAlbumFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add album"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:textSize="30sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/albumname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Album's name"
+            />
+
+        <Spinner
+            android:id="@+id/artist_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+
+        <Button
+            android:id="@+id/btn_addalbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add album"
+            />
+
+    </LinearLayout>
+</FrameLayout>

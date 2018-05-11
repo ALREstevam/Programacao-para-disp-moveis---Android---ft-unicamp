@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unicamp.ft.a166348.aplicacaoartista.AddArtistFragment"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add artist"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:textSize="30sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/artistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Artist's name"
+            />
+
+
+        <Button
+            android:id="@+id/btn_addartist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add artist"
+            />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

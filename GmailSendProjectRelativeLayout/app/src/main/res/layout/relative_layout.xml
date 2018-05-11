@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingStart="@dimen/rlayout_left_margin"
+    android:paddingEnd="@dimen/rlayout_right_margin"
+    android:paddingTop="@dimen/rlayout_top_margin"
+    android:paddingBottom="@dimen/rlayout_bottom_margin"
+
+    android:orientation="vertical"
+    >
+
+    <!-- USERNAME -->
+    <TextView
+        android:id="@+id/labelUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uname"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uname_hint"
+        android:inputType="textEmailAddress"
+        android:layout_toEndOf="@id/labelUsername"
+        />
+
+    <!-- PASSWORD -->
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_below="@+id/username"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/username"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+
+
+</RelativeLayout>

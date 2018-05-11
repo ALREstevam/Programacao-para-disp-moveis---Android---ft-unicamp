@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text= "Selecione os Produtos que deseja adicionar a lista"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox1"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox2"
+         />
+
+    <CheckBox
+        android:id="@+id/checkbox_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox3"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox4"
+         />
+    <CheckBox
+        android:id="@+id/checkbox_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox5"
+       />
+
+    <CheckBox
+        android:id="@+id/checkbox_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox6"
+         />
+    <CheckBox
+        android:id="@+id/checkbox_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox7"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox8"
+         />
+
+    <CheckBox
+        android:id="@+id/checkbox_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox9"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox10"
+         />
+
+    <Button
+        android:id="@+id/btn_escolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao"
+        />
+
+</LinearLayout>

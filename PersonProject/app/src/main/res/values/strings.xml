@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PersonProject</string>
+    <string name="image">image</string>
+    <string name="sample">sample</string>
+    <string name="verificar_resposta">Verificar Resposta</string>
+    <string name="nome_errado">Quem está com o nome errado?</string>
+</resources>

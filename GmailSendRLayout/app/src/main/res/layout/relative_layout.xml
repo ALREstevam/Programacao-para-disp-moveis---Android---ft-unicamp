@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/rlayout_bottom_margin"
+    android:paddingEnd="@dimen/rlayout_right_margin"
+    android:paddingStart="@dimen/rlayout_left_margin"
+    android:paddingTop="@dimen/rlayout_top_margin"
+
+    >
+
+    <!--============================================  TITLE ============================================ -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/send_e_mail"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!--============================================  USERNAME ============================================ -->
+    <TextView
+        android:id="@+id/labelUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingTop="@dimen/padding_top"
+        android:text="@string/uname" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/labelUsername"
+
+        android:layout_toEndOf="@+id/labelUsername"
+        android:hint="@string/youremail_example_com"
+        android:inputType="textEmailAddress" />
+
+    <!--============================================ PASSWORD ============================================ -->
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelUsername"
+
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingTop="@dimen/padding_top"
+        android:text="@string/password" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/labelPassword"
+
+        android:layout_toEndOf="@+id/labelPassword"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+
+        />
+
+    <!--============================================  TO ============================================-->
+    <TextView
+        android:id="@+id/labelTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelPassword"
+
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingTop="@dimen/padding_top"
+        android:text="@string/to_label" />
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/labelTo"
+
+        android:layout_toEndOf="@+id/labelTo"
+        android:hint="@string/to_hint"
+        android:inputType="textEmailAddress" />
+
+    <!--============================================ SUBJECT ============================================-->
+    <TextView
+        android:id="@+id/labelSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelTo"
+
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingTop="@dimen/padding_top"
+        android:text="@string/subject" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/labelSubject"
+
+        android:layout_toEndOf="@+id/labelSubject"
+        android:hint="@string/subject_hint"
+        android:inputType="textEmailSubject" />
+
+
+    <!--============================================ MESSAGE ============================================-->
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sendButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subject"
+        android:gravity="top"
+        android:hint="@string/message"
+
+
+        android:paddingTop="0dp" />
+
+    <!--============================================ SEND BUTTON ============================================-->
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+
+        android:onClick="onSendButton"
+        android:text="@string/send" />
+
+
+</RelativeLayout>
+
+    <!--
+    android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+    -->

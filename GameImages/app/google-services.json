@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "195476561058",
+    "firebase_url": "https://projetofirebase-unicampsse.firebaseio.com",
+    "project_id": "projetofirebase-unicampsse",
+    "storage_bucket": "projetofirebase-unicampsse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195476561058:android:43f5e4556fc2645a",
+        "android_client_info": {
+          "package_name": "br.unicamp.ft.a166348.gameimages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195476561058-0v01u6ing16eoknqtrso27boe3vrbru1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC44ln_zRQ5xnCsm8f3kyST13Z4w5oRkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

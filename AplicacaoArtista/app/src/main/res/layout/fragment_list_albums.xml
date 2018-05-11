@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unicamp.ft.a166348.aplicacaoartista.ListAlbumsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Albums"
+            android:textAlignment="center"
+            android:paddingTop="16dp"
+            android:textSize="30sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Artist : Album"
+
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            />
+
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/list_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Artist : Album"
+
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+
+                />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
