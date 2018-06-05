@@ -15,6 +15,8 @@ import android.widget.TextView;
 
 //import com.google.firebase.database.DatabaseReference;
 
+import com.google.firebase.database.DatabaseReference;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -31,8 +33,7 @@ public class GuessGameFragment extends Fragment {
     private int round = 1;
     private int totalrounds = 10;
     private int[] buttons = {R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9};
-    //private DatabaseReference mFirebaseDatabaseReference;
-
+    private DatabaseReference mFirebaseDatabaseReference;
 
     private View lView;
     private Person selectedPerson;
@@ -121,8 +122,8 @@ public class GuessGameFragment extends Fragment {
         TextView result = (TextView)lView.findViewById( R.id.answerTextView );
 
         //FIREBASE PUSH
-        //Resposta resposta = new Resposta(selectedPerson.getName(), btn.getText().toString());
-        //mFirebaseDatabaseReference.child("respostas").push().setValue(resposta);
+        Resposta resposta = new Resposta(selectedPerson.getName(), btn.getText().toString());
+        mFirebaseDatabaseReference.child("respostas").push().setValue(resposta);
 
         if(btn.getText().equals( selectedPerson.getName() )){
             //Acertou

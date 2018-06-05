@@ -15,6 +15,18 @@
       },
       "oauth_client": [
         {
+          "client_id": "195476561058-fqe8us7tf4hjj02kkbubbo91pgornjer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.unicamp.ft.a166348.gameimages",
+            "certificate_hash": "77b177ec698d9a3e285b3db80801d49b6b218375"
+          }
+        },
+        {
+          "client_id": "195476561058-0v01u6ing16eoknqtrso27boe3vrbru1.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
           "client_id": "195476561058-0v01u6ing16eoknqtrso27boe3vrbru1.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +41,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195476561058-0v01u6ing16eoknqtrso27boe3vrbru1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
