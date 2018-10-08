@@ -29,8 +29,6 @@ public class ButtonActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EditTextActivity.class);
         intent.putExtra(INTENT_TEXT, "Um texto a ser enviado aqui");
         startActivity(intent);
-
-
     }
 }
 
